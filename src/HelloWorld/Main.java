@@ -10,7 +10,7 @@ public class Main {
 	Doggy dog1 = new Doggy("Соболь", 5, "Рыже-коричневый", 650);//Разная дистанция, обьявлена как поле класса(последнее задание)
 	cat.voice();
         Scanner scan = new Scanner(System.in);
-        System.out.println("Введите расстрояние, которое кошка должна пробежат!");
+        System.out.println("Введите расстрояние, которое кошка должна пробежать!");
         int catRunDist = scan.nextInt();
         cat.run(catRunDist);
         System.out.println("Введите высоту, на которую кошка должна прыгнуть!");
