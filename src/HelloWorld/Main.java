@@ -28,6 +28,7 @@ public class Main {
         dog.jump(dogJumpHeight);
         dog.swim();
         scan.close();
-
+        Akita Hachiko = new Akita("Хатико", 5, " Бело - оранжевый", 2, 15);
+        Hachiko.
     }
 }
