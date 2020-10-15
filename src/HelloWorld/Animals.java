@@ -19,7 +19,7 @@ public abstract class Animals {
         if(runDistance>0 && runDistance<=runDistanceMax)
         System.out.println(name +  " пробежал " + runDistance + " метра(-ов)");
         else if(runDistance>0 && runDistance>runDistanceMax)
-            System.out.println(name + " не может пробежать так много");
+            System.out.println(name + " не может пробежать так много!");
         else
             System.out.println("Введите целое число > 0!");
     }

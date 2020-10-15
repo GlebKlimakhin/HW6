@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Kitty cat = new Kitty("Барсик", 2, "Чёрный", 200, 4);
         Doggy dog = new Doggy("Бобик", 5, "Чёрный", 500, 3, 30);
-        Doggy dog1 = new Doggy("Соболь", 5, "Рыже-коричневый", 650, 4, 35);//Разная дистанция, обьявлена как поле класса(последнее задание)
+        Doggy dog1 = new Doggy("Соболь", 5, "Рыже-коричнево-бурый", 650, 4, 35);//Разная дистанция, обьявлена как поле класса(последнее задание)
 	cat.voice();
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите расстрояние, которое кошка должна пробежать!");
